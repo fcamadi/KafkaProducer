@@ -11,7 +11,7 @@ And to upload it to github:
 
 created in github the public repository. And then
 
-> git remote add origin git@github.com/fcamadi/Kafka-KafkaProducer.git
+> git remote add origin git@github.com/fcamadi/KafkaProducer.git
 > git push -u origin master
 
 
