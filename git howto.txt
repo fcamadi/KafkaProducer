@@ -1,0 +1,29 @@
+To create and initialize the repository:
+-------------------------------------------
+
+> git init
+> git add .
+> git commit -m "initial status"
+
+
+And to upload it to github:
+----------------------------------
+
+created in github the public repository. And then
+
+> git remote add origin git@github.com/fcamadi/Kafka-KafkaProducer.git
+> git push -u origin master
+
+
+to create the develop branch:
+
+> git branch develop master
+
+
+to go to it:
+
+> git checkout develop
+
+we modify something, we "git add ., git commit ..." , and then
+
+> git push -u origin develop  
